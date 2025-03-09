@@ -1,4 +1,4 @@
-# Webソリューション仕様書
+# groggy-froggy Official 仕様書
 
 ## 1. プロジェクト概要
 
