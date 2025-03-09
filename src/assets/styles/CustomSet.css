@@ -1,0 +1,118 @@
+.flex-center-col {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.section-frame {
+  width: 100vw;
+  height: 100lvh;
+}
+
+.section-bg-setting {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ellipse-clip-top {
+  clip-path: ellipse(100% 90% at 50% 10%);
+}
+.ellipse-clip-bottom {
+  clip-path: ellipse(100% 50% at 50% 50%);
+  padding: 200px 0;
+}
+
+.text-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdfd;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  filter: blur(10px);
+}
+
+.drop-shadow-bl {
+  filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 1));
+}
+.text-shadow-bl {
+  width: 200px;
+  height: auto;
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 1));
+}
+.custom-buttom {
+  border: solid white 1px;
+  border-radius: 100px;
+  color: white;
+  transition: all 1s ease-in-out;
+}
+.custom-buttom:hover {
+  color: black;
+  background: white;
+}
+
+/*bubble */
+
+.bubble {
+  position: absolute;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  animation: rise 3s infinite ease-in;
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.6;
+    transform: translateY(-300px) scale(1.2);
+  }
+  100% {
+    transform: translateY(-800px) scale(0.8);
+    opacity: 0;
+  }
+}
+/*useInOrderAnimation*/
+.in-order-content {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.animateIn-1 {
+  animation: animated1 1s;
+  opacity: 1;
+}
+.animateIn-2 {
+  animation: animated1 3s;
+  opacity: 1;
+}
+
+@keyframes animated1 {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    filter: blur(20px);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/*test*/
+.animation-container {
+  display: flex;
+  gap: 20px;
+}

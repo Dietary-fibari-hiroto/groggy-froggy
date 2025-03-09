@@ -1,0 +1,60 @@
+.kinuta-maruminfuji-stdn {
+  font-family: kinuta-maruminfuji-stdn, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kinuta-shin-stdn {
+  font-family: kinuta-shin-stdn, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.uddigikyokasho-pro {
+  font-family: uddigikyokasho-pro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kinuta-shin-enpitsu-it-stdn {
+  font-family: kinuta-shin-enpitsu-it-stdn, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.tk-takumi-shokei-font {
+  font-family: tk-takumi-shokei-font, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.KinutaShinEnpitsuStdnHB {
+  font-family: "kinuta-shin-enpitsu-stdn", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.UDDigiKyokashoProR {
+  font-family: "uddigikyokasho-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.string-mm {
+  font-size: 10px;
+}
+.string-sss {
+  font-size: 15px;
+}
+.string-ss {
+  font-size: 20px;
+}
+.string-s {
+  font-size: 25px;
+}
+.string-md {
+  font-size: 30px;
+}
+.string-lg {
+  font-size: 40px;
+}
+.string-l {
+  font-size: 50px;
+}
