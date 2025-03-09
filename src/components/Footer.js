@@ -1,4 +1,5 @@
 import ImagesRoutes from "../assets/ImagesRoutes";
+import FooterPhotos from "./Layout/FotterPhotos";
 
 const Footer = () => {
   return (
